@@ -1,3 +1,19 @@
 {
-  "extends": "next/core-web-vitals"
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+    // "plugin:@typescript-eslint/recommended",
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx"] }],
+    "react/jsx-props-no-spreading": "off"
+  }
 }
