@@ -7,7 +7,7 @@ export default function Home() {
         <title>Dashboard</title>
       </Head>
 
-      <h2 className="text-sky-500">Hello world</h2>
+      <h1>ABC</h1>
     </>
   );
 }
