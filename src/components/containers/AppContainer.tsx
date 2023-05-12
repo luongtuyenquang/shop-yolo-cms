@@ -6,7 +6,7 @@ const AppContainer: React.FC<{ children: ReactNode }> = ({ children }) => {
     <>
       <Header />
 
-      <div className="px-5 pt-5">{children}</div>
+      <div className="px-5 py-[30px] bg-[#F5F5F5]">{children}</div>
     </>
   );
 };

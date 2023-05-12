@@ -9,7 +9,7 @@
 
   th,
   td {
-    @apply border-[1px] border-slate-950;
+    @apply border-[1px] border-[#b5b5b5];
   }
 
   th {
