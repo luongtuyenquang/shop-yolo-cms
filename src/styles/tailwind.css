@@ -6,6 +6,19 @@
   html {
     font-family: Roboto, sans-serif;
   }
+
+  th,
+  td {
+    @apply border-[1px] border-slate-950;
+  }
+
+  th {
+    @apply py-2;
+  }
+
+  td {
+    @apply py-[7px] px-[15px] align-top text-[15px];
+  }
 }
 
 .header-base {
@@ -22,3 +35,18 @@
   @apply header-base;
   @apply after:w-full;
 }
+
+.btn-action {
+  @apply px-[5px] py-[3px] rounded hover:cursor-pointer;
+}
+
+.btn-category {
+  @apply px-2 py-[3px] rounded-full overflow-hidden text-ellipsis whitespace-nowrap block w-[110px];
+}
+
+/* .three-dots {
+  @apply overflow-hidden text-ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 13;
+} */

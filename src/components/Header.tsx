@@ -19,7 +19,7 @@ const Header: React.FC = () => {
         <Link href={PATH_ROUTES.home}>
           <Image src={logo} alt="Yolo Logo" width={70} priority />
         </Link>
-        <div className="flex gap-5 opacity-80">
+        <div className="flex gap-5 opacity-80 text-[15px]">
           <Link href={PATH_ROUTES.product_manager} className={handleActiveHeader(PATH_ROUTES.product_manager)}>
             Product
           </Link>
