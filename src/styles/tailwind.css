@@ -36,12 +36,20 @@
   @apply after:w-full;
 }
 
+.btn-main {
+  @apply flex items-center justify-center gap-[10px] py-1 rounded-full;
+}
+
 .btn-action {
   @apply px-[5px] py-[3px] rounded hover:cursor-pointer;
 }
 
+.ellipsis {
+  @apply overflow-hidden text-ellipsis;
+}
+
 .btn-category {
-  @apply px-2 py-[3px] rounded-full overflow-hidden text-ellipsis whitespace-nowrap block w-[110px];
+  @apply px-2 py-[3px] rounded-full;
 }
 
 /* .three-dots {
